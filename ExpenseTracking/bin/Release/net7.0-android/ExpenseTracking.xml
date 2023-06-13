@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExpenseTracking</name>
+    </assembly>
+    <members>
+        <member name="T:ExpenseTracking.Viewmodel.AddExpenseVM">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.CurrentId">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.AddExpenseVM.currentId"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.NewTitle">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.AddExpenseVM.newTitle"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.NewDescription">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.AddExpenseVM.newDescription"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.NewAmmount">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.AddExpenseVM.newAmmount"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.NewImageLink">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.AddExpenseVM.newImageLink"/>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.AddExpenseVM.addExpenseCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.AddExpenseVM.AddExpenseCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.AddExpenseVM.AddExpenseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.AddExpenseVM.AddExpense"/>.</summary>
+        </member>
+        <member name="T:ExpenseTracking.Viewmodel.BaseVM">
+            <inheritdoc/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.BaseVM.IsBusy">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.BaseVM.isBusy"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.BaseVM.Title">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.BaseVM.title"/>
+        </member>
+        <member name="T:ExpenseTracking.Viewmodel.ExpenseDetailVM">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.ExpenseDetailVM.Expense">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.ExpenseDetailVM.expense"/>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.ExpenseDetailVM.updateDetailCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.ExpenseDetailVM.UpdateDetailCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.ExpenseDetailVM.UpdateDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.ExpenseDetailVM.UpdateDetail(ExpenseTracking.Model.Expense)"/>.</summary>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.ExpenseDetailVM.deleteExpenseCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.ExpenseDetailVM.DeleteExpenseCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.ExpenseDetailVM.DeleteExpenseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.ExpenseDetailVM.DeleteExpense(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:ExpenseTracking.Viewmodel.OverViewVM">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.OverViewVM.YearList">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.OverViewVM.yearList"/>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.OverViewVM.getExpenseCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.OverViewVM.GetExpenseCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.OverViewVM.GetExpenseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.OverViewVM.GetExpenseAsync"/>.</summary>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.OverViewVM.goYearDetailCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.OverViewVM.GoYearDetailCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.OverViewVM.GoYearDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.OverViewVM.GoYearDetail(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:ExpenseTracking.Viewmodel.YearDetailVM">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.YearDetailVM.YearID">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.YearDetailVM.yearID"/>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.YearDetailVM.DedicatedList">
+            <inheritdoc cref="F:ExpenseTracking.Viewmodel.YearDetailVM.dedicatedList"/>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.YearDetailVM.showExpenseByYearCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.YearDetailVM.ShowExpenseByYearCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.YearDetailVM.ShowExpenseByYearCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.YearDetailVM.ShowExpenseByYear"/>.</summary>
+        </member>
+        <member name="F:ExpenseTracking.Viewmodel.YearDetailVM.goDetailCommand">
+            <summary>The backing field for <see cref="P:ExpenseTracking.Viewmodel.YearDetailVM.GoDetailCommand"/>.</summary>
+        </member>
+        <member name="P:ExpenseTracking.Viewmodel.YearDetailVM.GoDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ExpenseTracking.Viewmodel.YearDetailVM.GoDetail(ExpenseTracking.Model.Expense)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewAmmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewAmmount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewImageLink">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewImageLink" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Expense">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Expense" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.YearList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "YearList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.YearID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "YearID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DedicatedList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DedicatedList" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewAmmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewAmmount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewImageLink">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewImageLink" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Expense">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Expense" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.YearList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "YearList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.YearID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "YearID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DedicatedList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DedicatedList" generated properties.</summary>
+        </member>
+    </members>
+</doc>

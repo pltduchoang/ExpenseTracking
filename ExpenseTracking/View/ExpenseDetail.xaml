@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpenseTracking.View.ExpenseDetail"
+             xmlns:viewmodel="clr-namespace:ExpenseTracking.Viewmodel"
+             xmlns:model="clr-namespace:ExpenseTracking.Model"
+             x:DataType="viewmodel:ExpenseDetailVM"
+             Title="ExpenseDetail">
+    <ScrollView>
+        <VerticalStackLayout
+                Padding="10"
+                Spacing="10">
+            <HorizontalStackLayout HorizontalOptions="Center"
+                                   Spacing="20">
+                <Button
+                    Text="Update"
+                    HeightRequest="50"
+                    WidthRequest="150"
+                    CommandParameter="{Binding Expense}"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ExpenseDetailVM}}, Path=UpdateDetailCommand}"/>
+                <Button
+                    Text="Delete"
+                    HeightRequest="50"
+                    WidthRequest="150"
+                    CommandParameter="{Binding Expense.Id}"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ExpenseDetailVM}}, Path=DeleteExpenseCommand}"/>
+            </HorizontalStackLayout>
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="ID"/>
+                <Label Text="{Binding Expense.Id}"  
+                       Grid.Column="1"/>
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="Title"/>
+                <Entry Text="{Binding Expense.Title}"  
+                       Grid.Column="1"/>
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="Description"/>
+                <Entry Text="{Binding Expense.Description}"  
+                       Grid.Column="1"/>
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="Spent Date"/>
+                <DatePicker
+                    x:Name="datepicker"
+                    MinimumDate="1/1/2020"
+                    Grid.Column="1"
+                    Date="{Binding Expense.SpentDate}"/>
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="Ammount"/>
+                <Entry Text="{Binding Expense.Ammount}"  
+                       Grid.Column="1"/>
+            </Grid>
+            <VerticalStackLayout Margin="20">
+                <Label Text="Image Of Receipt"
+                        HorizontalOptions="Center"
+                        HeightRequest="100"/>
+                <Image Source="{Binding Expense.ImageLink}"
+                        HeightRequest="400"
+                        WidthRequest="200"/>
+                <Button Text="Take Picture"
+                        HeightRequest="50"
+                        WidthRequest="150"
+                        HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
