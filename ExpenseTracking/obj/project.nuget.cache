@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JEXrXEogPhKUo34iVXhSVOM1Viy7eDOtXBNUN/s6MMz9fxeFBN1MuOjduxfYiIF2sZQAB+Zkh5ruk48H+yFZew==",
+  "dgSpecHash": "uy8JZNSQ2Maq72mi17Gw7rgEFkqVEn0eL7ILD2YWs0lq1a0FSubW69ruVv0WCHIBLYUckldGBw1p4oGe5oeeRw==",
   "success": true,
   "projectFilePath": "C:\\OOPProject\\Own Project\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pltdu\\.nuget\\packages\\camera.maui\\1.4.4\\camera.maui.1.4.4.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -113,6 +114,7 @@
     "C:\\Users\\pltdu\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
+    "C:\\Users\\pltdu\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",

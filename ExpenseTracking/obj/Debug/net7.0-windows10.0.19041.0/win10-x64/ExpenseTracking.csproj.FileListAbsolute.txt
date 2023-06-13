@@ -35,7 +35,6 @@ C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windo
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
-C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
@@ -329,3 +328,6 @@ C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windo
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plugin.Media.dll
+C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll

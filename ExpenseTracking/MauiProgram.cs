@@ -1,4 +1,5 @@
-﻿using ExpenseTracking.Database;
+﻿using Camera.MAUI;
+using ExpenseTracking.Database;
 using ExpenseTracking.View;
 using ExpenseTracking.Viewmodel;
 using Microsoft.Extensions.Logging;
@@ -12,6 +13,7 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.UseMauiCameraView()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -22,14 +24,15 @@ public static class MauiProgram
         builder.Services.AddSingleton<OverView>();
         builder.Services.AddSingleton<OverViewVM>();
 
-		builder.Services.AddTransient<YearDetail>();
-		builder.Services.AddTransient<YearDetailVM>();
+		builder.Services.AddSingleton<YearDetail>();
+		builder.Services.AddSingleton<YearDetailVM>();
 
         builder.Services.AddTransient<AddExpense>();
         builder.Services.AddTransient<AddExpenseVM>();
 
         builder.Services.AddTransient<ExpenseDetail>();
         builder.Services.AddTransient<ExpenseDetailVM>();
+
 
 #if DEBUG
         builder.Logging.AddDebug();
