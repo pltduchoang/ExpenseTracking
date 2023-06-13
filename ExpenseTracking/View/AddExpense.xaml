@@ -54,7 +54,8 @@
                     <Button Text="Upload"
                         HeightRequest="50"
                         WidthRequest="150"
-                        HorizontalOptions="Center"/>
+                        HorizontalOptions="Center"
+                            Command="{Binding TakePictureCommand}"/>
                     <Button
                         Text="Add Expense"
                         HeightRequest="50"

@@ -13,17 +13,22 @@
             WidthRequest="150"
             HeightRequest="50"
             HorizontalOptions="Center"
-            Command="{Binding GetExpenseCommand}"/>
+            Command="{Binding GetExpenseCommand}"
+            Margin="10"/>
         <Frame Grid.Row="1"
                Margin="10">
             <Grid ColumnDefinitions="*,*"
                   ColumnSpacing="30">
                 <Label
                     Text="Year"
+                    FontSize="18"
+                    FontAttributes="Bold"
                     Grid.Column="0"/>
                 <Label
-                    Text="Expense"
-                    Grid.Column="1"/>
+                    Text="Sum Expense"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="18"/>
             </Grid>
         </Frame>
         <RefreshView

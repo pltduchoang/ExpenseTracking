@@ -38,7 +38,7 @@ namespace ExpenseTracking.Viewmodel
 
         public void ClearPage()
         {
-            NewTitle = null; NewDescription = null; NewAmmount = null; NewImageLink = null;
+            NewTitle = null; NewDescription = null; NewAmmount = null; NewImageLink = null; newSpentDate = System.DateTime.Today;
         }
 
         [RelayCommand]
@@ -51,29 +51,33 @@ namespace ExpenseTracking.Viewmodel
         }
 
 
-        //[RelayCommand]
-        //public async Task TakePicture()
-        //{
-        //    try
-        //    {
-        //        var photoFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
-        //        {
-        //            SaveToAlbum = true,
-        //            Name = "ExpenseTracking" + DateTime.UtcNow.ToString("yyMMdd-HHmmss-ffff") + ".jpg",
-        //            DefaultCamera = CameraDevice.Front,
-        //            CustomPhotoSize = 50,
-        //            MaxWidthHeight = 100,
-        //            AllowCropping = true
-        //        });
-        //        NewImageLink = photoFile.Path;
-        //    }
-        //    catch (NotSupportedException ex)
-        //    {
-        //        await Shell.Current.DisplayAlert("App name or some title here", "No camera device found.\n\nUnable to take photos.", "OK");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // catch other errors here.  
-        //    }
+
+        [RelayCommand]
+        public async void TakePicture()
+        {
+            try
+            {
+                if (MediaPicker.Default.IsCaptureSupported)
+                {
+                    FileResult photo = await MediaPicker.Default.CapturePhotoAsync();
+
+                    if (photo != null)
+                    {
+                        // save the file into local storage
+                        string localFilePath = Path.Combine(FileSystem.AppDataDirectory, photo.FileName);
+
+                        using Stream sourceStream = await photo.OpenReadAsync();
+                        using FileStream localFileStream = File.OpenWrite(localFilePath);
+
+                        await sourceStream.CopyToAsync(localFileStream);
+                        NewImageLink = localFileStream.ToString();
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Error", $"{ex.Message}", "Cancel");
+            }
         }
     }
+}
