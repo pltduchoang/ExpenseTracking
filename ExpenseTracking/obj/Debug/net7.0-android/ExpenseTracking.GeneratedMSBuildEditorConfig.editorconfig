@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ExpenseTracking.View.AddEx
 build_metadata.AdditionalFiles.TargetPath = View\AddExpense.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AddExpense.xaml
 
+[C:/OOPProject/Own Project/ExpenseTracking/ExpenseTracking/View/CameraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExpenseTracking.View.CameraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CameraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CameraPage.xaml
+
 [C:/OOPProject/Own Project/ExpenseTracking/ExpenseTracking/View/ExpenseDetail.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExpenseTracking.View.ExpenseDetail.xaml

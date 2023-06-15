@@ -1,1 +1,1 @@
-C:\OOPProject\Own Project\ExpenseTracking\ExpenseTracking\ExpenseTracking.csproj;x64
+C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\ExpenseTracking.csproj;x64

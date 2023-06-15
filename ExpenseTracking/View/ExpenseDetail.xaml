@@ -58,8 +58,8 @@
                         HorizontalOptions="Center"
                         HeightRequest="100"/>
                 <Image Source="{Binding Expense.ImageLink}"
-                        HeightRequest="400"
-                        WidthRequest="200"/>
+                        HeightRequest="600"
+                        WidthRequest="400"/>
                 <Button Text="Take Picture"
                         HeightRequest="50"
                         WidthRequest="150"

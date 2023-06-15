@@ -1,3 +1,4 @@
+obj\Release\net7.0-android\android-x86\aot\Camera.MAUI.dll.so
 obj\Release\net7.0-android\android-x86\aot\CommunityToolkit.Mvvm.dll.so
 obj\Release\net7.0-android\android-x86\aot\Microsoft.Extensions.Configuration.dll.so
 obj\Release\net7.0-android\android-x86\aot\Microsoft.Extensions.Configuration.Abstractions.dll.so
@@ -10,10 +11,11 @@ obj\Release\net7.0-android\android-x86\aot\Microsoft.Extensions.Primitives.dll.s
 obj\Release\net7.0-android\android-x86\aot\Microsoft.Maui.Graphics.dll.so
 obj\Release\net7.0-android\android-x86\aot\SQLite-net.dll.so
 obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.batteries_v2.dll.so
-obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.nativelibrary.dll.so
 obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.core.dll.so
 obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.lib.e_sqlite3.android.dll.so
+obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.provider.dynamic_cdecl.dll.so
 obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.provider.e_sqlite3.dll.so
+obj\Release\net7.0-android\android-x86\aot\SQLitePCLRaw.provider.sqlite3.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.AndroidX.Activity.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.AndroidX.AppCompat.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
@@ -43,6 +45,7 @@ obj\Release\net7.0-android\android-x86\aot\Xamarin.AndroidX.Window.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.Google.Android.Material.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.Kotlin.StdLib.dll.so
 obj\Release\net7.0-android\android-x86\aot\Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
+obj\Release\net7.0-android\android-x86\aot\zxing.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Collections.Concurrent.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Collections.NonGeneric.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Collections.dll.so
@@ -61,7 +64,9 @@ obj\Release\net7.0-android\android-x86\aot\System.Numerics.Vectors.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.ObjectModel.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Private.Uri.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Private.Xml.dll.so
+obj\Release\net7.0-android\android-x86\aot\System.Runtime.InteropServices.RuntimeInformation.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Runtime.InteropServices.dll.so
+obj\Release\net7.0-android\android-x86\aot\System.Runtime.Numerics.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Runtime.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Security.Cryptography.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Text.RegularExpressions.dll.so
@@ -69,7 +74,6 @@ obj\Release\net7.0-android\android-x86\aot\System.Threading.Thread.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Threading.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.Xml.ReaderWriter.dll.so
 obj\Release\net7.0-android\android-x86\aot\System.dll.so
-obj\Release\net7.0-android\android-x86\aot\mscorlib.dll.so
 obj\Release\net7.0-android\android-x86\aot\netstandard.dll.so
 obj\Release\net7.0-android\android-x86\aot\Java.Interop.dll.so
 obj\Release\net7.0-android\android-x86\aot\Mono.Android.dll.so

@@ -47,7 +47,7 @@ namespace ExpenseTracking.Viewmodel
                 await DBConnect.EditExpese(expense);
                 //await DBConnect.EditExpese(expense.Id, expense.Title, expense.Description, expense.SpentDate, expense.Ammount, expense.ImageLink);
                 await Shell.Current.DisplayAlert("Task Successful", "The expense has been deleted", "Back");
-                await Shell.Current.GoToAsync(nameof(OverView));
+                await Shell.Current.GoToAsync("../..");
             }
             catch (Exception ex)
             {
@@ -64,7 +64,7 @@ namespace ExpenseTracking.Viewmodel
             {
                 await DBConnect.RemoveExpense(id);
                 await Shell.Current.DisplayAlert("Task Successful", "The expense has been deleted", "Back");
-                await Shell.Current.GoToAsync(nameof(OverView));
+                await Shell.Current.GoToAsync("../..");
             }
             catch (Exception ex)
             {

@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "ExpenseTracking/1.0": {
         "dependencies": {
+          "Camera.MAUI": "1.4.4",
           "CommunityToolkit.Mvvm": "8.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -23,7 +24,6 @@
           "SQLitePCLRaw.core": "2.1.5",
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.5",
           "SQLitePCLRaw.provider.dynamic_cdecl": "2.1.5",
-          "Xam.Plugin.Media": "5.0.1",
           "sqlite-net-pcl": "1.8.116",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.5",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.86",
@@ -799,6 +799,17 @@
           }
         }
       },
+      "Camera.MAUI/1.4.4": {
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {
+            "assemblyVersion": "1.4.4.0",
+            "fileVersion": "1.4.4.0"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.2.0": {
         "runtime": {
           "lib/net6.0/CommunityToolkit.Mvvm.dll": {
@@ -1074,26 +1085,11 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Numerics.Vectors/4.5.0": {},
-      "Xam.Plugin.Media/5.0.1": {
-        "dependencies": {
-          "Xamarin.Essentials": "1.5.2"
-        },
+      "ZXing.Net/0.16.9": {
         "runtime": {
-          "lib/netstandard2.0/Plugin.Media.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Xamarin.Essentials/1.5.2": {
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Essentials.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/net7.0/zxing.dll": {
+            "assemblyVersion": "0.16.9.0",
+            "fileVersion": "0.16.9.0"
           }
         }
       }
@@ -1129,6 +1125,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Camera.MAUI/1.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsCdEVRXR7hzESvOHOxQJkiJxxd6/j/daHekhQVzQAZFlzuKkN1ncDxXNG5tXyutX6VaCzYLZiA7rSvqtCZT9w==",
+      "path": "camera.maui/1.4.4",
+      "hashPath": "camera.maui.1.4.4.nupkg.sha512"
     },
     "CommunityToolkit.Mvvm/8.2.0": {
       "type": "package",
@@ -1284,26 +1287,12 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
-    "System.Numerics.Vectors/4.5.0": {
+    "ZXing.Net/0.16.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
-      "path": "system.numerics.vectors/4.5.0",
-      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
-    },
-    "Xam.Plugin.Media/5.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
-      "path": "xam.plugin.media/5.0.1",
-      "hashPath": "xam.plugin.media.5.0.1.nupkg.sha512"
-    },
-    "Xamarin.Essentials/1.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qHxkrkx5jIC0X/qWhxCPZ3MuuOJm8bfCzAoUtlpOBSE4oV0JhrkTezK0A+IV+k/MeJ3zKc8FexaIXah9rlCTIw==",
-      "path": "xamarin.essentials/1.5.2",
-      "hashPath": "xamarin.essentials.1.5.2.nupkg.sha512"
+      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "path": "zxing.net/0.16.9",
+      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
     }
   },
   "runtimes": {

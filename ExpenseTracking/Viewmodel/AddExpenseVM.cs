@@ -50,31 +50,55 @@ namespace ExpenseTracking.Viewmodel
             this.ClearPage();
         }
 
-
+        public string PhotoPath { get; set; } = null;
 
         [RelayCommand]
         public async void TakePicture()
         {
             try
             {
-                if (MediaPicker.Default.IsCaptureSupported)
+                var file = await MediaPicker.CapturePhotoAsync();
+                await LoadPhotoAsync(file);
+                if (file == null)
+                    return;
+                async Task LoadPhotoAsync(FileResult photo)
                 {
-                    FileResult photo = await MediaPicker.Default.CapturePhotoAsync();
-
-                    if (photo != null)
+                    // canceled
+                    if (photo == null)
                     {
-                        // save the file into local storage
-                        string localFilePath = Path.Combine(FileSystem.AppDataDirectory, photo.FileName);
-
-                        using Stream sourceStream = await photo.OpenReadAsync();
-                        using FileStream localFileStream = File.OpenWrite(localFilePath);
-
-                        await sourceStream.CopyToAsync(localFileStream);
-                        NewImageLink = localFileStream.ToString();
+                        PhotoPath = null;
+                        return;
                     }
+                    // save the file into local storage
+                    var newFile = Path.Combine(FileSystem.AppDataDirectory, photo.FileName);
+                    using (var stream = await photo.OpenReadAsync())
+                    using (var newStream = File.OpenWrite(newFile))
+                        await stream.CopyToAsync(newStream);
+                    PhotoPath = newFile;
+                    NewImageLink = PhotoPath;//Show on the front page
                 }
             }
-            catch(Exception ex)
+
+            //try
+            //{
+            //    if (MediaPicker.Default.IsCaptureSupported)
+            //    {
+            //        FileResult photo = await MediaPicker.Default.CapturePhotoAsync();
+
+            //        if (photo != null)
+            //        {
+            //            // save the file into local storage
+            //            string localFilePath = Path.Combine(FileSystem.AppDataDirectory, photo.FileName);
+
+            //            using Stream sourceStream = await photo.OpenReadAsync();
+            //            using FileStream localFileStream = File.OpenWrite(localFilePath);
+
+            //            await sourceStream.CopyToAsync(localFileStream);
+            //            NewImageLink = localFilePath;
+            //        }
+            //    }
+            //}
+            catch (Exception ex)
             {
                 await Shell.Current.DisplayAlert("Error", $"{ex.Message}", "Cancel");
             }

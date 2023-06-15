@@ -8,8 +8,10 @@ Microsoft.Maui.Controls.Compatibility.aar
 maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
+Camera.MAUI.dll
 GoogleGson.dll
 Microsoft.Maui.Graphics.dll
+SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.Android.Glide.Annotations.dll
 Xamarin.Android.Glide.DiskLruCache.dll
 Xamarin.Android.Glide.dll
@@ -153,12 +155,8 @@ androidx.exifinterface.exifinterface.aar
 androidx.browser.browser.aar
 gifdecoder.aar
 glide.aar
+Camera.MAUI.aar
 GoogleGson.aar
 Xamarin.Google.Crypto.Tink.Android.aar
-SQLitePCLRaw.lib.e_sqlite3.android.dll
 SQLitePCLRaw.batteries_v2.dll
 SQLitePCLRaw.lib.e_sqlite3.android.aar
-Plugin.Media.dll
-Xamarin.Essentials.dll
-Camera.MAUI.dll
-Camera.MAUI.aar

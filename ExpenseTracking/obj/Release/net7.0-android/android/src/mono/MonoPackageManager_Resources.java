@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ExpenseTracking.dll" comes first in this list. */
 		"ExpenseTracking.dll",
+		"Camera.MAUI.dll",
 		"CommunityToolkit.Mvvm.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -15,10 +16,11 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
-		"SQLitePCLRaw.nativelibrary.dll",
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
+		"SQLitePCLRaw.provider.dynamic_cdecl.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.sqlite3.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.AppCompat.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
@@ -48,6 +50,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Kotlin.StdLib.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
+		"zxing.dll",
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Controls.Compatibility.dll",
 		"Microsoft.Maui.Controls.Xaml.dll",

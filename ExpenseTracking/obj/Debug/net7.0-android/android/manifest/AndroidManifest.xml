@@ -22,6 +22,11 @@
   <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
   <uses-permission android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT" />
   <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
+  <queries>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE" />
+    </intent>
+  </queries>
   <permission android:name="com.companyname.expensetracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.expensetracking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc643d5d20e8fed998ef.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="Expense Tracking" android:supportsRtl="true">

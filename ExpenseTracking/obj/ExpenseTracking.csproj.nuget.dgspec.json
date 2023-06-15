@@ -106,11 +106,11 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.lib.e_sqlite3": {
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.provider.dynamic_cdecl": {
+            "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
@@ -252,11 +252,11 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.lib.e_sqlite3": {
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.provider.dynamic_cdecl": {
+            "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
@@ -343,11 +343,11 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.lib.e_sqlite3": {
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.provider.dynamic_cdecl": {
+            "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
@@ -451,11 +451,11 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.lib.e_sqlite3": {
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
-            "SQLitePCLRaw.provider.dynamic_cdecl": {
+            "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
             },

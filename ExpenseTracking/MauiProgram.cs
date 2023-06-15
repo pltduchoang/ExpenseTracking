@@ -24,8 +24,8 @@ public static class MauiProgram
         builder.Services.AddSingleton<OverView>();
         builder.Services.AddSingleton<OverViewVM>();
 
-		builder.Services.AddSingleton<YearDetail>();
-		builder.Services.AddSingleton<YearDetailVM>();
+		builder.Services.AddTransient<YearDetail>();
+		builder.Services.AddTransient<YearDetailVM>();
 
         builder.Services.AddTransient<AddExpense>();
         builder.Services.AddTransient<AddExpenseVM>();
