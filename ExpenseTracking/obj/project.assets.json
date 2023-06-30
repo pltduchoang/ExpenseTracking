@@ -29239,11 +29239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OOPProject\\Own Project\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
+      "projectUniqueName": "C:\\OOPProject\\GithubBavi\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
       "projectName": "ExpenseTracking",
-      "projectPath": "C:\\OOPProject\\Own Project\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
+      "projectPath": "C:\\OOPProject\\GithubBavi\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
       "packagesPath": "C:\\Users\\pltdu\\.nuget\\packages\\",
-      "outputPath": "C:\\OOPProject\\Own Project\\ExpenseTracking\\ExpenseTracking\\obj\\",
+      "outputPath": "C:\\OOPProject\\GithubBavi\\ExpenseTracking\\ExpenseTracking\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

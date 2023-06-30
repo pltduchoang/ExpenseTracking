@@ -16,8 +16,7 @@
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>
-    </WindowsSdkPath>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>7601D717679D8D35D1A46DF076286849B4B98548A120995F7CBD8D0E0F5734A8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7a5439f9-3003-45f1-bd0b-92b19a2f2d0f_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
@@ -30,25 +29,25 @@
     <AppXManifest Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-14T22:38:46.506</Modified>
+      <Modified>2023-06-30T15:02:31.550</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-14T22:38:46.126</Modified>
+      <Modified>2023-06-30T15:02:31.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ExpenseTracking.runtimeconfig.json">
       <PackagePath>ExpenseTracking.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-14T22:38:45.932</Modified>
+      <Modified>2023-06-30T15:02:31.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ExpenseTracking.dll">
       <PackagePath>ExpenseTracking.dll</PackagePath>
-      <Modified>2023-06-14T22:38:44.603</Modified>
+      <Modified>2023-06-30T15:02:29.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ExpenseTracking.exe</PackagePath>
-      <Modified>2023-06-14T22:38:44.620</Modified>
+      <Modified>2023-06-30T15:02:29.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -938,6 +937,10 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2023-05-19T20:34:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\sqlitepclraw.provider.sqlite3\2.1.5\lib\net6.0-windows7.0\SQLitePCLRaw.provider.sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.sqlite3.dll</PackagePath>
+      <Modified>2023-05-19T20:34:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll">
       <PackagePath>zxing.dll</PackagePath>
       <Modified>2023-02-23T20:44:14.000</Modified>
@@ -956,7 +959,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ExpenseTracking.deps.json">
       <PackagePath>ExpenseTracking.deps.json</PackagePath>
-      <Modified>2023-06-14T22:38:46.356</Modified>
+      <Modified>2023-06-30T15:02:31.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -976,23 +979,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.193</Modified>
+      <Modified>2023-06-14T23:13:44.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.210</Modified>
+      <Modified>2023-06-14T23:13:44.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.236</Modified>
+      <Modified>2023-06-14T23:13:44.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.275</Modified>
+      <Modified>2023-06-14T23:13:44.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.409</Modified>
+      <Modified>2023-06-14T23:13:44.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1004,207 +1007,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-12T01:45:45.452</Modified>
+      <Modified>2023-06-14T23:13:44.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.762</Modified>
+      <Modified>2023-06-14T23:13:44.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.777</Modified>
+      <Modified>2023-06-14T23:13:44.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.792</Modified>
+      <Modified>2023-06-14T23:13:44.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.809</Modified>
+      <Modified>2023-06-14T23:13:44.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.875</Modified>
+      <Modified>2023-06-14T23:13:44.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.548</Modified>
+      <Modified>2023-06-14T23:13:44.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.552</Modified>
+      <Modified>2023-06-14T23:13:44.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.570</Modified>
+      <Modified>2023-06-14T23:13:44.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.555</Modified>
+      <Modified>2023-06-14T23:13:44.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.561</Modified>
+      <Modified>2023-06-14T23:13:44.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.521</Modified>
+      <Modified>2023-06-14T23:13:44.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.525</Modified>
+      <Modified>2023-06-14T23:13:44.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.543</Modified>
+      <Modified>2023-06-14T23:13:44.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.528</Modified>
+      <Modified>2023-06-14T23:13:44.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.532</Modified>
+      <Modified>2023-06-14T23:13:44.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.476</Modified>
+      <Modified>2023-06-14T23:13:44.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.481</Modified>
+      <Modified>2023-06-14T23:13:44.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.484</Modified>
+      <Modified>2023-06-14T23:13:44.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.488</Modified>
+      <Modified>2023-06-14T23:13:44.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.493</Modified>
+      <Modified>2023-06-14T23:13:44.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.497</Modified>
+      <Modified>2023-06-14T23:13:44.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.500</Modified>
+      <Modified>2023-06-14T23:13:44.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.518</Modified>
+      <Modified>2023-06-14T23:13:44.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.506</Modified>
+      <Modified>2023-06-14T23:13:44.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.510</Modified>
+      <Modified>2023-06-14T23:13:44.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.625</Modified>
+      <Modified>2023-06-14T23:13:44.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.631</Modified>
+      <Modified>2023-06-14T23:13:44.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.638</Modified>
+      <Modified>2023-06-14T23:13:44.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.646</Modified>
+      <Modified>2023-06-14T23:13:44.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.667</Modified>
+      <Modified>2023-06-14T23:13:44.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.597</Modified>
+      <Modified>2023-06-14T23:13:44.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.601</Modified>
+      <Modified>2023-06-14T23:13:44.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.606</Modified>
+      <Modified>2023-06-14T23:13:44.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.610</Modified>
+      <Modified>2023-06-14T23:13:44.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.621</Modified>
+      <Modified>2023-06-14T23:13:44.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.574</Modified>
+      <Modified>2023-06-14T23:13:44.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.578</Modified>
+      <Modified>2023-06-14T23:13:44.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.582</Modified>
+      <Modified>2023-06-14T23:13:44.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.587</Modified>
+      <Modified>2023-06-14T23:13:44.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.593</Modified>
+      <Modified>2023-06-14T23:13:44.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.680</Modified>
+      <Modified>2023-06-14T23:13:44.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.688</Modified>
+      <Modified>2023-06-14T23:13:44.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.698</Modified>
+      <Modified>2023-06-14T23:13:44.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.711</Modified>
+      <Modified>2023-06-14T23:13:44.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.750</Modified>
+      <Modified>2023-06-14T23:13:44.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.513</Modified>
+      <Modified>2023-06-14T23:13:44.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.524</Modified>
+      <Modified>2023-06-14T23:13:44.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.539</Modified>
+      <Modified>2023-06-14T23:13:44.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.561</Modified>
+      <Modified>2023-06-14T23:13:44.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OOPProject\GithubBavi\ExpenseTracking\ExpenseTracking\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-12T01:45:45.611</Modified>
+      <Modified>2023-06-14T23:13:44.388</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

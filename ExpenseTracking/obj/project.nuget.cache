@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+FyzeV56cvbxqT9EP+cgnUAzw0dM43idApu2l3jTb1Gq45HVorymMk6NjdSoQHGgrsC3fxBI8KeOfgMWq2fbQg==",
+  "dgSpecHash": "d+/LS/nWZmIUgwKkSRGB+kr+LrO90fNNaRUmxto86ABVtCxlAr3Jv5nBIVUU6JM2/sMg9egC4FcR9tfZWcEiOA==",
   "success": true,
-  "projectFilePath": "C:\\OOPProject\\Own Project\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
+  "projectFilePath": "C:\\OOPProject\\GithubBavi\\ExpenseTracking\\ExpenseTracking\\ExpenseTracking.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pltdu\\.nuget\\packages\\camera.maui\\1.4.4\\camera.maui.1.4.4.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
